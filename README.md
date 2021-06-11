@@ -1,12 +1,3 @@
--->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -58,22 +49,25 @@ This is where the <b> Node Google OAuth2 </b> package comes into picture. You ca
 
 ## Getting Started
 
-Refer this article for a quick guide.
+An article coming soon on this package
 
 ### Installation
 
 This is an example of how to list things you need to use the software and how to install them.
 
-- npm
-  ```sh
-  npm install node-google-oauth2
-  ```
+```sh
+npm install node-google-oauth2
+```
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-First, create a new instance of the GoogleAuth2 class. A guide to obtain
+First, create a new instance of the GoogleAuth2 class. Before initializing, you must first
+set up OAuth in your GCP account. <br>
+<a href="https://support.google.com/cloud/answer/6158849?hl=en"> Click here for instructions. </a><br>
+Make sure to note down the <b> clientId, clientSecret, redirectURL </b>, as they're required parameters
+to initialize a connection with Google's OAuth servers.
 
 ```javascript
 const GoogleOAuth2 = require("node-google-oauth2");
@@ -146,7 +140,7 @@ Project Link: [https://github.com/cadarsh/node-google-oauth2](https://github.com
 [forks-shield]: https://img.shields.io/github/forks/cadarsh/repo.svg?style=for-the-badge
 [forks-url]: https://github.com/cadarsh/repo/network/members
 [stars-shield]: https://img.shields.io/github/stars/cadarsh/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/cadarsh/repo/stargazers
+[stars-url]: https://api.github.com/repos/cadarsh/node-google-oauth2/stargazers
 [issues-shield]: https://img.shields.io/github/issues/cadarsh/repo.svg?style=for-the-badge
 [issues-url]: https://github.com/cadarsh/repo/issues
 [license-shield]: https://img.shields.io/github/license/cadarsh/repo.svg?style=for-the-badge
