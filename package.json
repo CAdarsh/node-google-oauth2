@@ -1,0 +1,20 @@
+{
+  "name": "node-google-oauth2",
+  "version": "1.0.0",
+  "description": "An Abstraction to implement Google OAuth2",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oauth2",
+    "google-oauth2",
+    "express",
+    "auth"
+  ],
+  "author": "Adarsh C",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^76.0.0"
+  }
+}
