@@ -1,11 +1,12 @@
 {
   "name": "node-google-oauth2",
   "version": "1.0.0",
-  "description": "An Abstraction to implement Google OAuth2",
+  "description": "An abstraction to implement Google OAuth2",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/CAdarsh/node-google-oauth2#readme",
   "keywords": [
     "oauth2",
     "google-oauth2",
