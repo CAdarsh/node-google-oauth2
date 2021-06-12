@@ -49,6 +49,8 @@ This is where the <b> Node Google OAuth2 </b> package comes into picture. You ca
 
 ## Getting Started
 
+Refer to this article on <a href="https://cadarsh.medium.com/google-oauth2-with-nodejs-simplified-7211e084b987"> Medium. </a>
+
 ### Installation
 
 This is an example of how to list things you need to use the software and how to install them.
