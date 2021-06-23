@@ -82,7 +82,7 @@ Then, generate a Auth URL from Google on request. Return this link to the client
 
 ```javascript
 Router.get("/request", async (req, res) => {
-  res.redirect(await GoogleOAuth2.urlGoogle()); // this method returns a link
+  res.redirect(await Auth.urlGoogle()); // this method returns a link
 });
 ```
 
@@ -91,7 +91,7 @@ After successful authentication, a code will be sent through a URL query to your
 ```javascript
 Router.get("/redirectUrl", async (req, res) => {
   console.log(req.query.code);
-  const payload = await GoogleOAuth2.getGoogleAccountFromCode(req.query.code);
+  const payload = await Auth.getGoogleAccountFromCode(req.query.code);
   // create a user / approve the user
   user = payload;
   console.log(payload);
